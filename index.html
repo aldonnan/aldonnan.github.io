@@ -1,9 +1,23 @@
 <!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <title>Button</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<html lang = "en">
+	<head>
+		<title>IFT 402 - Button</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="scripts/auth.js"></script>
+	</head>
+	<body>
+		<header>
+			<h3>Button</h3>
+		</header>
+		<main>
+			<form name="loginForm" onsubmit="userCheck(name, email, pwd)">
+			  	Name: <input type="text" name="name"><br>
+				Email: <input type="text" name="email"><br>
+				Password: <input type="text" name="pwd"><br><br>
+				<input type="submit" value="formSubmit">
+			</form>
+		</main>
+		<footer>
+		</footer>
+	</body>
 </html>
